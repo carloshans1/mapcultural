@@ -8,11 +8,15 @@ class SegmentosCulturais extends Model
 {
     protected $fillable = [
         'id',
-        'id_usuario',
-        'id_listasegmento', 
-        'tiposegmento', // 1 para Individual ou 2 para Grupo
-        'id_grupocultural' // Caso seja de um grupo
-
+        'segmento'
+        /*  Teatro,  Dança,  Ópera,  Circo,  Mímica, Produção Cinematográfica,
+            Videográfica, Fotográfica, Discográfica, Literatura,  Música,
+            Artes Plásticas, Artes Gráficas, Gravuras, Cartazes, Filatelia
+            Folclore, Cia. de Reis, Artesanato, Técnica de Artesanato,  
+            Patrimônio cultural, Rádio, Televisão educativa e 
+            cultural de caráter não comercial, Cultura Negra, Afro reggae,
+            Capoeira, Cultura indígena;
+        */
     ];
 
     protected $table = 'SegmentosCulturais';
