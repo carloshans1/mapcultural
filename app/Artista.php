@@ -14,7 +14,6 @@ class Artista extends Model
         'breve_apresentacao', // (o que faz o artista) 
         'id_grupocultural',    // 0 para Individual ou ID do Grupo, caso seja de um grupo
         'observacao'
-
     ];
 
     protected $table = 'Artista';
